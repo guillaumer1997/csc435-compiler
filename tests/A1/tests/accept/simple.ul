@@ -1,0 +1,13 @@
+int foo(){
+
+
+    return 'c';
+
+}
+
+
+void main(){
+    println foo();
+    
+}
+

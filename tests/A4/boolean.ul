@@ -1,0 +1,8 @@
+void main(){
+    boolean[2] b;
+    boolean i;
+    b[0] = true;
+    i = true;
+    b[1] = b[0] == i;
+    println b[1];
+}

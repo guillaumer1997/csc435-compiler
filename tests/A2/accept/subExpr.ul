@@ -1,0 +1,23 @@
+void main(){
+    int x;
+    float f;
+    char c;
+
+    int[1] iArr;
+    float[1] fArr;
+    char[1] cArr;
+
+
+    x = 1;
+    f = 4.5;
+    c = 'c';
+
+    iArr[0] = x;
+    fArr[0] = f;
+    cArr[0] = c;
+
+    print(x-x-iArr[0]);
+    print(f-f-fArr[0]);
+    print(c-c-cArr[0]);
+
+}

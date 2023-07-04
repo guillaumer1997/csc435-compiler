@@ -1,0 +1,4 @@
+void main(){
+    int z;
+    z = "this is a string";
+}

@@ -1,0 +1,16 @@
+void main(){
+    int x;
+    float f;
+    char c;
+    string s;
+
+    x = 1;
+    f = 4.5;
+    c = 'c';
+    s = "hello";
+
+    print(x+x);
+    print(f+f);
+    print(c+c);
+    print(s+s);
+}

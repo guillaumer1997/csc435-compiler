@@ -1,0 +1,21 @@
+void foo(){
+    boolean flag;
+    int x;
+    x = 10;
+    flag = false;
+
+    while (flag == false){
+        println x;
+        x = x-1;
+        if (x<1){
+            flag = true;
+        }
+    }
+    print "done";
+    return;
+}
+
+void main(){
+    foo();
+    
+}

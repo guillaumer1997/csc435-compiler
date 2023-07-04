@@ -1,0 +1,25 @@
+void main(){
+    int x;
+    char c;
+    float f;
+    boolean b;
+    string s;
+    int[2] arr;
+
+
+    x = 2;
+    c = 'c';
+    f = 3.55;
+    s = "tring";
+    b = true;
+    arr[0] = 1;
+
+    x=x;
+    c=c;
+    f=f;
+    s=s;
+    b=b;
+    arr=arr;
+
+
+}

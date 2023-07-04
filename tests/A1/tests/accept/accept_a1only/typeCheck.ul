@@ -1,0 +1,13 @@
+void main(){
+    string x;
+    float z;
+
+    int result;
+
+    x = "hello";
+    z = 4.55;
+
+    result = x * z + 2;
+
+
+}

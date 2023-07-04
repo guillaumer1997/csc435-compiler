@@ -1,0 +1,9 @@
+float[3] foo(){
+    float[3] x; 
+    return x;
+}
+
+void main(){
+    int[3] x;
+    x = foo();
+}

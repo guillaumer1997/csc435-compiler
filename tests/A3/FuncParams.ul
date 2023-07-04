@@ -1,0 +1,15 @@
+int foo(int x, int y){
+    return x+y;
+}
+
+void main(){
+    int[2] x;
+    int z;
+    int result;
+    x[0] = 1;
+    z = 2;
+
+    result = foo(x[0], z);
+    print result;
+    
+}

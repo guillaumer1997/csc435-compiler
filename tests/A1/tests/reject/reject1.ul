@@ -1,0 +1,5 @@
+//assigning variable and declaring in same expression
+
+void foo (){
+    int x = 2;
+}

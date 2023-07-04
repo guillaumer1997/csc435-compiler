@@ -1,0 +1,55 @@
+int foo1(int c, int y){
+    if(c==y){
+        return c+y;
+    }
+    else{
+        return 2;
+    }
+}
+
+char foo2(char c, char d){
+    return 't';
+}
+
+string foo3(string s1, string s2){
+    return s1+s2;
+}
+
+boolean foo4(boolean t){
+    if(t){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+float foo5(float f, float f2){
+    return f+f2;
+}
+
+void main(){
+    char[2] c;
+    int[2] x;
+    string[2] s;
+    boolean[2] b;
+    float[2] f;
+
+    f[0] = 1.11;
+    f[1] = 1.22;
+    
+
+    c[0] = 'c';
+    c[1] = 'd';
+    x[0] = 1;
+    x[1] = 1;
+    s[0] = "append";
+    s[1] = "string";
+    b[0] = true;
+
+    println foo4(b[0]);
+    println foo3(s[0], s[1]);
+    println foo2(c[0], c[1]);
+    println foo1(x[0], x[1]);
+    println foo5(f[0], f[1]);
+}

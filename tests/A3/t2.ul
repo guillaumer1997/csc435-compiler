@@ -1,0 +1,12 @@
+void main(){
+
+    int x;
+    x=1;
+    if(x==2){
+        println "x is equal to two";
+    }
+    else{
+        println "it is not";
+    }
+    println "outside";
+}

@@ -1,0 +1,21 @@
+int foo (int x, int y, int z){
+    int temp;
+    temp = x + y;
+    println temp;
+    temp = x + y * z;
+    println temp;
+    temp = x - y * z;
+    println temp;
+    temp = (x-y) * (x-z);
+    println temp;
+
+    return (x-z) + temp;
+
+}
+
+void main(){
+
+
+    println foo(2, 4, 10);
+    
+}

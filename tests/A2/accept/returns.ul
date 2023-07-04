@@ -1,0 +1,30 @@
+void main(){
+
+
+}
+
+int foo(){
+    return 2;
+}
+
+int[2] fooArr(){
+    int[2] x;
+    return x;
+}
+
+float foo2(){
+    return 3.33;
+
+}
+
+boolean foo3(){
+    return true;
+}
+
+char foo4(){
+    return 'c';
+}
+
+string foo5(){
+    return "hello";
+}

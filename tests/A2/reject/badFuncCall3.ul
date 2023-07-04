@@ -1,0 +1,7 @@
+int foo(int x, int y, int z){
+    return x+y+z;
+}
+
+void main(){
+    foo(4, 5);
+}

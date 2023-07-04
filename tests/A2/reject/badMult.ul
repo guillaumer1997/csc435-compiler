@@ -1,0 +1,8 @@
+void main(){
+
+    string s;
+
+    s="Hello";
+
+    s = s*s;
+}

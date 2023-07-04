@@ -1,0 +1,9 @@
+int foo(int x, int y){
+    int z;
+    z = 2;
+}
+
+void main(){
+    int result;
+    result = z;
+}

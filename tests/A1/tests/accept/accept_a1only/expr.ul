@@ -1,0 +1,5 @@
+int foo(){
+    //testing many nested expressions
+    x(z(f(t(5))));
+    x[z[f[t[3]]]];
+}

@@ -1,0 +1,9 @@
+void main(){
+    int x;
+
+    x = 3;
+
+    while(x){
+        x = x+1;
+    }
+}

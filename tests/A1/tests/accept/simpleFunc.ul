@@ -1,0 +1,27 @@
+//testing functions without formal params
+
+int foo (){
+    int x_2;
+    x_2 = 2;
+    return x_2;
+}
+
+//testing functions with formal params
+int foo2 (int y){
+    y = 2;
+    return y * 2;
+}
+
+//testing functions with multiple formal params
+int foo3 (int y, int z){
+    return (y+z)*z;
+
+}
+
+void main(){
+    int x;
+    int z;
+    z = 5;
+    x = foo() + foo2(z) * foo3(z,z);
+
+}

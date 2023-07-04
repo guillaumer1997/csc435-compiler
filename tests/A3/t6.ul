@@ -1,0 +1,12 @@
+void main(){
+
+    if(foo() == true){
+        println "inside";
+    }
+    println "outside";
+
+}
+
+boolean foo(){
+    return false ;
+}

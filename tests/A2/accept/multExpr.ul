@@ -1,0 +1,17 @@
+void main(){
+    int x;
+    float f;
+
+    int[1] xArr;
+    float[1] fArr;
+
+    x = 5;
+    f = 4.33;
+
+    xArr[0] = x;
+    fArr[0] = f;
+
+
+    x = x*x*xArr[0];
+    f = f*f*fArr[0];
+}

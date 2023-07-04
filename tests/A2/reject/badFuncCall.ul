@@ -1,0 +1,11 @@
+int foo(int x, int y){
+    return x+y;
+}
+
+void main(){
+    int x;
+    float y;
+    x = 2;
+    y = 3.4;
+    foo(x, y);
+}

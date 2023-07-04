@@ -1,0 +1,23 @@
+void foo(){
+    int x;
+    boolean y;
+    string s;
+    float f;
+    char c;
+
+    x = 2;
+    y = true;
+    s = "hello";
+    f = 3.55;
+    c = 'h';
+
+    println x;
+    println y;
+    println s;
+    println f;
+    println c;
+}
+
+void main(){
+    foo();
+}

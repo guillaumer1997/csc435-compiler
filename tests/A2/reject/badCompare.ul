@@ -1,0 +1,11 @@
+void main(){
+    int x;
+    float y;
+
+    x=2;
+    y=3.33;
+
+    if(x<y){
+        return;
+    }
+}

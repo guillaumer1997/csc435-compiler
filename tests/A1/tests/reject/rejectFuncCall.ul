@@ -1,0 +1,9 @@
+
+int foo2(int x, int y){
+    return x+y;
+}
+
+int foo(){
+    
+    foo2(2 4);
+}

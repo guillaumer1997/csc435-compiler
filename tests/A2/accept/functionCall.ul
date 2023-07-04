@@ -1,0 +1,11 @@
+
+
+int foo(int x, boolean b, float f){
+    return x;
+}
+
+void main(){
+    int result;
+
+    result = foo(4, true, 4.44);
+}

@@ -1,0 +1,19 @@
+
+
+void main(){
+
+    int[3] x;
+    int index;
+    x[0] = 1;
+    x[1] = 2;
+    x[2] = 3;
+    index=0;
+
+
+    while(index<3){
+        println x[index];
+        index = index+1;
+    }
+
+
+}

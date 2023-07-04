@@ -1,0 +1,10 @@
+void foo(){
+
+}
+
+
+string foo(){
+    foo();
+    return "done";
+    
+}

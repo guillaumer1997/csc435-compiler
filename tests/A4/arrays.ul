@@ -1,0 +1,11 @@
+float[3] foo(){
+    float[3]x;
+    x[0] = 2.2;
+    return x;
+}
+
+void main(){
+    float[3] x;
+    x = foo();
+    println x[0];
+}

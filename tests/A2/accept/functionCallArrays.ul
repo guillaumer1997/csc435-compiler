@@ -1,0 +1,27 @@
+int foo(int x, int y){
+    return x+y;
+
+}
+
+
+void main(){
+
+    int i;
+    int[3] x;
+    x[0] = 1;
+    x[1] = 10;
+    x[2] = 15;
+   
+    
+   println foo(x[0], (x[1]+x[2]));
+
+    
+    i=0;
+
+    while (i<3){
+        println x[i];
+        i = i+1;
+    }
+
+
+}

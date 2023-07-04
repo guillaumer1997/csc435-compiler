@@ -1,0 +1,8 @@
+void main(){
+    char c;
+    c = 'h';
+
+    if(c){
+        return;
+    }
+}

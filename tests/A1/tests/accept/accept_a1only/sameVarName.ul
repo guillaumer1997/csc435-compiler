@@ -1,0 +1,7 @@
+void main(){
+    int x;
+    string x;
+
+    x = 2;
+    x = "hello";
+}

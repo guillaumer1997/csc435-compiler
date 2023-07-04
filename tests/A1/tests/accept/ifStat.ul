@@ -1,0 +1,22 @@
+void foo(int x, int y){
+    if(x<10){
+        println "x is less than 10";
+        if (y<10){
+            println "y is less than 10";
+        }
+    }
+    else{
+        println "x is not less than 10";
+    }
+
+}
+
+
+void main(){
+    int c;
+    int z;
+    c = 3;
+    z = 10;
+    foo(c, z);
+    
+}

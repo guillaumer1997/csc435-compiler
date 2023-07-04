@@ -1,0 +1,25 @@
+void TowersOfHanoi(int n, char fromRod, char toRod, char auxRod){
+    if(n==1){
+        print "moved disk 1 from rod ";
+        print fromRod;
+        print " to rod ";
+        println toRod;
+    }
+    else{
+        TowersOfHanoi(n-1, fromRod, auxRod, toRod);
+        print "Move disk ";
+        print n;
+        print " from rod ";
+        print fromRod;
+        print " to rod ";
+        println toRod;
+        TowersOfHanoi(n-1, auxRod, toRod, fromRod);
+    }
+
+}
+
+void main(){
+    int n;
+    n = 4;
+    TowersOfHanoi(n, 'A', 'B', 'C');
+}

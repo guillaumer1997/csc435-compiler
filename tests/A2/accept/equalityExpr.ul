@@ -1,0 +1,32 @@
+void main(){
+    int x;
+    float f;
+    char c;
+    string s;
+    boolean b;
+
+    x = 2;
+    f= 44.44;
+    c = 'c';
+    s = "hello";
+    b = true;
+
+    if(x==x){
+        println x;
+    }
+    if(f==f){
+        println f;
+    
+    }
+
+    if(c==c){
+        println c;
+    }
+    if(s==s){
+        println s;
+    }
+
+    if(b==b){
+        println b;
+    }
+}

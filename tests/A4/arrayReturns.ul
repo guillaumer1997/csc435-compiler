@@ -1,0 +1,39 @@
+char foo(char[2] x){
+    return x[0];
+}
+
+float foo1(float[2] x){
+    return x[0];
+}
+
+string foo2(string[2] x){
+    return x[0];
+
+}
+
+int foo3(int[2] x){
+    return x[0];
+}
+
+boolean  foo4(boolean[2] x){
+    return x[0];
+}
+
+void main(){
+    char[2] c;
+    float[2] f;
+    int [2] i;
+    string [2] s;
+    boolean[2] b;
+    c[0] = 'c';
+    f[0] = 2.22;
+    i[0] = 2;
+    s[0] = "string";
+    b[0] = true;
+
+    println foo(c);
+    println foo1(f);
+    println foo2(s);
+    println foo3(i);
+    println foo4(b);
+}

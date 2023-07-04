@@ -1,0 +1,4 @@
+void main(){
+    int[2] x;
+    x['c'] = 2;
+}

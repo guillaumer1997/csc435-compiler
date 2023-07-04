@@ -1,0 +1,5 @@
+void main(){
+    int result;
+
+    result = not_a_function(2,4);
+}

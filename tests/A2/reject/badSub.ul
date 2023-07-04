@@ -1,0 +1,10 @@
+void main(){
+    boolean t;
+    boolean f;
+
+    f = false;
+
+    t = true;
+
+    t = t-f;
+}

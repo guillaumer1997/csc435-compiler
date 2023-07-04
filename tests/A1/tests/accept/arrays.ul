@@ -1,0 +1,12 @@
+int[2] foo(){
+    int [2] b;
+    b[0] = 2;
+    b[1] = b[0];
+    return b;
+
+}
+
+void main(){
+    int [2] result;
+    result = foo();
+}
